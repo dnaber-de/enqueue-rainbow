@@ -25,7 +25,7 @@ function for_frank() {
 
 	wp_register_script(
 		'rainbow_js',
-		plugin_dir_url( __FILE__ ),
+		plugin_dir_url( __FILE__ ) . 'js/rainbow.min.js',
 		array(),
 		'1.1.8',
 		TRUE
