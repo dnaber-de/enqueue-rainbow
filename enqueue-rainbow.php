@@ -3,8 +3,8 @@
 /**
  * Plugin Name: Enqueue Rainbow.js
  * Description: Enqueues Rainbow.js requires php 5.3!
- * Plugin URI:
- * Version:     2012.11.11
+ * Plugin URI:  https://github.com/dnaber-de/enqueue-rainbow
+ * Version:     2012.11.12
  * Author:      David Naber
  * Author URI:  http://dnaber.de/
  * License:     MIT
