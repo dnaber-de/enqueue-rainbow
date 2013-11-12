@@ -13,7 +13,7 @@
 
 namespace Enqueue_Rainbow;
 
-add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\for_frank' );
+add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\enqueue_rainbow_js' );
 
 /**
  * enqueues the rainbow.js. in footer
@@ -21,7 +21,7 @@ add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\for_frank' );
  * @wp-hook wp_enqueue_scripts
  * @return void
  */
-function for_frank() {
+function enqueue_rainbow_js() {
 
 	wp_register_script(
 		'rainbow_js',
